@@ -7,6 +7,6 @@
 <title>第一个maven项目</title>
 </head>
 <body>
-	我是少年
+	我是少年${customer.custName}
 </body>
 </html>

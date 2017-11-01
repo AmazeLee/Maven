@@ -58,7 +58,9 @@ public final class info_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<title>第一个maven项目</title>\r\n");
       out.write("</head>\r\n");
       out.write("<body>\r\n");
-      out.write("\t我是少年\r\n");
+      out.write("\t我是少年");
+      out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${customer.custName}", java.lang.String.class, (PageContext)_jspx_page_context, null, false));
+      out.write("\r\n");
       out.write("</body>\r\n");
       out.write("</html>");
     } catch (Throwable t) {
